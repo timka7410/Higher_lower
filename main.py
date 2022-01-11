@@ -12,9 +12,9 @@ def print_two(a, b):
     clear()
     print(logo)
     print('Current score: ', score)
-    print(f"Compare A: {a['name']}, {a['description']}, from {a['country']}.{a['follower_count']}")
+    print(f"Compare A: {a['name']}, {a['description']}, from {a['country']}.")
     print(vs)
-    print(f"Against B: {b['name']}, {b['description']}, from {b['country']}.{b['follower_count']}")
+    print(f"Against B: {b['name']}, {b['description']}, from {b['country']}.")
 
 
 def score_count(score):
